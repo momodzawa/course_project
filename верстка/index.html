@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<link href="style/style.css" rel="stylesheet" />
+		<title>Лапки</title>
+	</head>
+	<body>
+		<nav class="navigation">
+			<div class="logo"><img src="img/logo 1.png" alt="logo"></div>
+			<ul class="item start">
+				<li class="list"><img src="img/image 1.png" alt="image" class="icon"><a href="exit.html" class="nav-link">ВХОД</a></li>
+				<li class="list"><img src="img/image 2.png" alt="image" class="icon"><a href="" class="nav-link">БОНУСЫ</a></li>
+				<li class="list"><img src="img/image 3.png" alt="image" class="icon"><a href="corzina.html" class="nav-link">КОРЗИНА</a></li>
+			</ul>
+		</nav>
+		<nav class="navigation block" style="margin-top: 10px; margin-bottom: 20px;">
+			<ul class="menu">
+				<li class="menu-list"><a href="" class="nav-link">АКЦИИ</a></li>
+				<li class="menu-list"><a href="" class="nav-link">КОШКИ</a></li>
+				<li class="menu-list"><a href="" class="nav-link">СОБАКИ</a></li>
+				<li class="menu-list"><a href="" class="nav-link">ГРЫЗУНЫ</a></li>
+				<li class="menu-list"><a href="" class="nav-link">ПТИЦЫ</a></li>
+				<li class="menu-list"><a href="" class="nav-link">РЫБЫ И РЕПТИЛИИ</a></li>
+			</ul>
+		</nav>
+		<main class="catalog">
+			<section class="filter block">
+				<h4>ФИЛЬТРЫ</h4>
+				<p>Цена:</p>
+				<div style="display: flex;"><input type="number" style="margin-right: 8px;" placeholder="от 15 р." name="price-filter"><input type="number" style="margin-left: 8px;" placeholder="до 50 000 р."  name="price-filter"></div>
+				<h4>БРЕНДЫ</h4>
+				<select name="brend-filter">
+					<option value="
+					NOW FRESH" checked>NOW FRESH</option>
+					<option value="GO! Solutions">GO! Solutions</option>
+					<option value="Royal Canin">Royal Canin</option>
+					<option value="Purina Pro Plan">Purina Pro Plan</option>
+					<option value="Smart Cat">Smart Cat</option>
+					<option value="Brit">Brit</option>
+					<option value="All Cats">All Cats</option>
+					<option value="Chappi">Chappi</option>
+					<option value="Stefanplast">Stefanplast</option>
+					<option value="Rogz">Rogz</option>
+					<option value="flexi">flexi</option>
+					<option value="Kito">Kito</option>
+				  </select>
+				  <h4>СКИДКИ</h4>
+				  <div style="display: flex; flex-direction: column; justify-content: start;">
+					<div class="radio">
+						<input type="radio" id="10" name="sale-filter" value="От 10% и выше" />
+						<label for="10">От 10% и выше</label>
+					</div>
+					<div class="radio">
+						<input type="radio" id="30" name="sale-filter" value="От 30% и выше" />
+						<label for="30">От 30% и выше</label>
+					</div>
+					<div class="radio">
+						<input type="radio" id="50" name="sale-filter" value="От 50% и выше" />
+						<label for="50">От 50% и выше</label>
+					</div><br><br>
+					<button type="submit" class="btn">Применить</button>
+				  </div>
+			</section>
+			<section class="carts">
+				<div class="card block">
+					<div class="card__top">
+					  <a href="#" class="card__image">
+						<img
+						  src="img/1 1.png"
+						  alt="image"
+						/>
+					  </a>
+					  <!-- Скидка на товар -->
+					  <div class="card__label">-10%</div>
+					</div>
+					<!-- Нижняя часть -->
+					<div class="card__bottom">
+						<p>500 руб.</p>
+					  <!-- Ссылка-название товара -->
+					  <a href="describe_card.html" class="card__title">
+						Корм для взрослых кошек Prime со вкусом индейки, 400гр
+					  </a>
+					  <button class="card__add">В корзину</button>
+					</div>
+				  </div>
+
+				  <div class="card block">
+					<div class="card__top">
+					  <a href="#" class="card__image">
+						<img
+						  src="img/1 1.png"
+						  alt="image"
+						/>
+					  </a>
+					  <!-- Скидка на товар -->
+					  <div class="card__label">-10%</div>
+					</div>
+					<!-- Нижняя часть -->
+					<div class="card__bottom">
+						<p>500 руб.</p>
+					  <!-- Ссылка-название товара -->
+					  <a href="#" class="card__title">
+						Корм для взрослых кошек Prime со вкусом индейки, 400гр
+					  </a>
+					  <button class="card__add">В корзину</button>
+					</div>
+				  </div>
+
+				  <div class="card block">
+					<div class="card__top">
+					  <a href="#" class="card__image">
+						<img
+						  src="img/1 1.png"
+						  alt="image"
+						/>
+					  </a>
+					  <!-- Скидка на товар -->
+					  <div class="card__label">-10%</div>
+					</div>
+					<!-- Нижняя часть -->
+					<div class="card__bottom">
+						<p>500 руб.</p>
+					  <!-- Ссылка-название товара -->
+					  <a href="#" class="card__title">
+						Корм для взрослых кошек Prime со вкусом индейки, 400гр
+					  </a>
+					  <button class="card__add">В корзину</button>
+					</div>
+				  </div>
+
+				  <div class="card block">
+					<div class="card__top">
+					  <a href="#" class="card__image">
+						<img
+						  src="img/1 1.png"
+						  alt="image"
+						/>
+					  </a>
+					  <!-- Скидка на товар -->
+					  <div class="card__label">-10%</div>
+					</div>
+					<!-- Нижняя часть -->
+					<div class="card__bottom">
+						<p>500 руб.</p>
+					  <!-- Ссылка-название товара -->
+					  <a href="#" class="card__title">
+						Корм для взрослых кошек Prime со вкусом индейки, 400гр
+					  </a>
+					  <button class="card__add">В корзину</button>
+					</div>
+				  </div>
+
+				  <div class="card block">
+					<div class="card__top">
+					  <a href="#" class="card__image">
+						<img
+						  src="img/1 1.png"
+						  alt="image"
+						/>
+					  </a>
+					  <!-- Скидка на товар -->
+					  <div class="card__label">-10%</div>
+					</div>
+					<!-- Нижняя часть -->
+					<div class="card__bottom">
+						<p>500 руб.</p>
+					  <!-- Ссылка-название товара -->
+					  <a href="#" class="card__title">
+						Корм для взрослых кошек Prime со вкусом индейки, 400гр
+					  </a>
+					  <button class="card__add">В корзину</button>
+					</div>
+				  </div>
+
+				  <div class="card block">
+					<div class="card__top">
+					  <a href="#" class="card__image">
+						<img
+						  src="img/1 1.png"
+						  alt="image"
+						/>
+					  </a>
+					  <!-- Скидка на товар -->
+					  <div class="card__label">-10%</div>
+					</div>
+					<!-- Нижняя часть -->
+					<div class="card__bottom">
+						<p>500 руб.</p>
+					  <!-- Ссылка-название товара -->
+					  <a href="#" class="card__title">
+						Корм для взрослых кошек Prime со вкусом индейки, 400гр
+					  </a>
+					  <button class="card__add">В корзину</button>
+					</div>
+				  </div>
+
+				  <div class="card block">
+					<div class="card__top">
+					  <a href="#" class="card__image">
+						<img
+						  src="img/1 1.png"
+						  alt="image"
+						/>
+					  </a>
+					  <!-- Скидка на товар -->
+					  <div class="card__label">-10%</div>
+					</div>
+					<!-- Нижняя часть -->
+					<div class="card__bottom">
+						<p>500 руб.</p>
+					  <!-- Ссылка-название товара -->
+					  <a href="#" class="card__title">
+						Корм для взрослых кошек Prime со вкусом индейки, 400гр
+					  </a>
+					  <button class="card__add">В корзину</button>
+					</div>
+				  </div>
+
+				  <div class="card block">
+					<div class="card__top">
+					  <a href="#" class="card__image">
+						<img
+						  src="img/1 1.png"
+						  alt="image"
+						/>
+					  </a>
+					  <!-- Скидка на товар -->
+					  <div class="card__label">-10%</div>
+					</div>
+					<!-- Нижняя часть -->
+					<div class="card__bottom">
+						<p>500 руб.</p>
+					  <!-- Ссылка-название товара -->
+					  <a href="#" class="card__title">
+						Корм для взрослых кошек Prime со вкусом индейки, 400гр
+					  </a>
+					  <button class="card__add">В корзину</button>
+					</div>
+				  </div>
+
+				  <div class="card block">
+					<div class="card__top">
+					  <a href="#" class="card__image">
+						<img
+						  src="img/1 1.png"
+						  alt="image"
+						/>
+					  </a>
+					  <!-- Скидка на товар -->
+					  <div class="card__label">-10%</div>
+					</div>
+					<!-- Нижняя часть -->
+					<div class="card__bottom">
+						<p>500 руб.</p>
+					  <!-- Ссылка-название товара -->
+					  <a href="#" class="card__title">
+						Корм для взрослых кошек Prime со вкусом индейки, 400гр
+					  </a>
+					  <button class="card__add">В корзину</button>
+					</div>
+				  </div>
+				  <input type="submit" class="more_btn" value="Показать еще">
+
+			</section>
+		</main>
+		<footer class="page-footer">
+			<div class="conteiner">
+				<ul class="footer-item">
+					<p class="price">Интернет-магазин</p>
+					<li class="footer-list"><a href="" class="foot-link">О магазине</a></li>
+					<li class="footer-list"><a href="" class="foot-link">Как сделать заказ</a></li>
+					<li class="footer-list"><a href="" class="foot-link">Доставка и оплата</a></li>
+					<li class="footer-list"><a href="" class="foot-link">Промокод</a></li>
+					<li class="footer-list"><a href="" class="foot-link">Политика конфидециальности</a></li>
+				</ul>
+				<ul class="footer-item">
+					<p class="price">О нас</p>
+					<li class="footer-list"><a href="" class="foot-link">Обратная связь</a></li>
+					<li class="footer-list"><a href="" class="foot-link">Контакты</a></li>
+					<li class="footer-list"><a href="" class="foot-link">Адреса магазинов</a></li>
+				</ul>
+				<ul class="footer-item">
+					<p class="price">Сервисы покупателя</p>
+					<li class="footer-list"><a href="" class="foot-link">Подарочные сертифакы</a></li>
+					<li class="footer-list"><a href="" class="foot-link">Бонусные карты</a></li>
+				</ul>
+				<div class="social">
+					<img class="social-img" src="img/2 1.png" alt="image">
+					<img class="social-img" src="img/2 2.png" alt="image">
+					<img class="social-img" src="img/2 3.png" alt="image">
+				</div>
+			</div><br><br>
+			<div>
+				<p>© 2024 Зоомагазин «Лапки»<br><a href="" class="foot-link">Правовые условия пользования сайтом</a></p>
+			</div>
+		</footer>
+	</body>
+</html>

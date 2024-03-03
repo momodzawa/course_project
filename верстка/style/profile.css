@@ -1,0 +1,144 @@
+
+@font-face {
+    font-family: 'Montserrat Alternates'; 
+    src: url(../font/MontserratAlternates-Regular.ttf); 
+}
+@font-face {
+    font-family: 'Montserrat Alternates Medium'; 
+    src: url(../font/MontserratAlternates-Medium.ttf); 
+}
+
+body {
+    margin: 0;
+    padding: 40px;
+    background-color: #F6F6F6;
+    font-family: 'Montserrat Alternates'; 
+    font-size: 18px;
+    background-image: url('../img/Group 45.png');
+    background-size: auto;
+    background-position: bottom left;
+    background-repeat: no-repeat;
+}
+.logo {
+    margin-right: auto;
+    width: 100px;
+    height: auto;
+}
+.navigation {
+    display: flex;
+    margin: 0;
+    padding: 0 auto;
+}
+.start {
+    margin-top: auto;
+}
+.item {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding: 5px;
+}
+.menu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.list {
+    display: block;
+    list-style-type: none;
+    margin: 10px;
+    padding: 5px;
+}
+.menu-list{
+    display: block;
+    list-style-type: none;
+    margin: auto 10%;
+    padding: 5px; 
+
+}
+.nav-link {
+    font-family: 'Montserrat Alternates Medium'; 
+    text-decoration: none;
+    color: black;
+    margin: 0 auto;
+    font-weight: bold;
+}
+.nav-link:hover {
+    color: #4AA55E;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.block {
+    border-radius:  20px;
+    border: medium solid #4AA55E;
+    background-color: #ffffff;
+}
+.profile {
+    display: flex;
+}
+.profile section{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.profile section a{
+    font-family: 'Montserrat Alternates'; 
+    text-decoration: none;
+    color: black;
+}
+.profile section a:hover{
+  color: #4AA55E;
+}
+.profile section h2{
+    font-family: 'Montserrat Alternates Medium'; 
+}
+.price {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Montserrat Alternates Medium'
+}
+.desribe{
+    font-family: 'Montserrat Alternates Medium'; 
+}
+.page-footer{
+    margin-top: 50px;
+    padding: 30px;
+}
+.conteiner {
+    display: flex;
+}
+.footer-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-right: 20px;
+}
+.footer-list {
+    display: block;
+    list-style-type: none;
+    text-decoration: none;
+    margin: 10px 0;
+    padding: 5px;
+}
+.foot-link{
+    font-family: 'Montserrat Alternates'; 
+    text-decoration: none;
+    color: black;
+}
+.foot-link:hover {
+    color: #4AA55E;
+}
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+}
+.social-img {
+    margin-top: 10px;
+}
